@@ -8,5 +8,9 @@ depois imprima na tela o nome da cidade mais populosa.
  */
 
 public class Main {
+    public static void main(String[] args) {
+        CodigoCidadesHabitantes codigo = new CodigoCidadesHabitantes();
+        codigo.cidadeMaisPopulosa();
+    }
 
 }
